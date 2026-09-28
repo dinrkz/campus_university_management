@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Campus Demo" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="org.example.json.JsonApplication" />
+    <module name="campus-university-management" />
+    <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=demo" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

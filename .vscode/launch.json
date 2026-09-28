@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Campus: local demo",
+      "request": "launch",
+      "mainClass": "org.example.json.JsonApplication",
+      "cwd": "${workspaceFolder}",
+      "args": "--spring.profiles.active=demo",
+      "console": "integratedTerminal"
+    }
+  ]
+}
