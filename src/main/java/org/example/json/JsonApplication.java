@@ -7,6 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JsonApplication {
 
     public static void main(String[] args) {
+        if (LocalDemoStartup.showExistingInstance(args)) {
+            return;
+        }
         SpringApplication.run(JsonApplication.class, args);
     }
 
